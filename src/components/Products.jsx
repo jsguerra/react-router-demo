@@ -11,6 +11,7 @@ export const Products = () => {
         <Link to="featured">Featured</Link>
         <Link to="new">New</Link>
       </nav>
+      {/* Outlet outputs the corresponding routes and components to the page */}
       <Outlet />
     </>
   );
